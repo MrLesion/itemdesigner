@@ -1,0 +1,50 @@
+{
+  "textOptions": {
+    "fonts": [
+      "Arial",
+      "Verdana",
+      "Tahoma",
+      "Trebuchet MS",
+      "Impact",
+      "Times New Roman",
+      "Courier",
+      "Monaco"
+    ]
+  },
+  "graphics": [
+    "https://cdn.pixabay.com/photo/2013/07/12/18/20/santa-claus-153309_1280.png",
+    "https://cdn.pixabay.com/photo/2013/07/13/10/51/football-157930_1280.png",
+    "https://cdn.pixabay.com/photo/2013/07/12/15/36/fingerprint-150159_1280.png",
+    "https://cdn.pixabay.com/photo/2012/04/18/14/50/pencil-37254_1280.png",
+    "https://cdn.pixabay.com/photo/2013/07/13/12/21/biceps-159681_1280.png",
+    "https://cdn.pixabay.com/photo/2017/08/28/17/39/poster-2690541_1280.png"
+  ],
+  "types": [
+    {
+      "label": "T-shirts",
+      "value": "TP1"
+    },
+    {
+      "label": "Hoodies",
+      "value": "TP2"
+    }
+  ],
+  "canvas": {
+    "bounds": {
+      "TP1": {
+        "width": 36,
+        "height": 36,
+        "left": 32.5,
+        "top": 25,
+        "fillColor": "rgba(255,255,255, .2)"
+      },
+      "TP2": {
+        "width": 36,
+        "height": 36,
+        "left": 32.5,
+        "top": 25,
+        "fillColor": "rgba(255,255,255, .2)"
+      }
+    }
+  }
+}

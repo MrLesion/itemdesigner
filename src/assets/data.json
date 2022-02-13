@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": "PROD1234",
+      "variantId": "VO321.VO123",
+      "name": "Test",
+      "type": "TP1",
+      "variantGroups": {
+        "sizes": {
+          "label": "Size",
+          "id": "VG12",
+          "options": [
+            {
+              "id": "VO123",
+              "name": "S",
+              "active": true
+            },
+            {
+              "id": "VO124",
+              "name": "M",
+              "active": true
+            },
+            {
+              "id": "VO125",
+              "name": "L",
+              "active": true
+            },
+            {
+              "id": "VO126",
+              "name": "XL",
+              "active": true
+            }
+          ]
+        },
+        "colors": {
+          "label": "Colors",
+          "id": "VG21",
+          "options": [
+            {
+              "id": "VO321",
+              "name": "Dark",
+              "image": "https://id.dk/admin/public/getimage.ashx?Image=%2fimages%2fproducts%2fID%2fid_40552_790_front_p.jpg&Width=600&Height=0&Format=jpg&Quality=75&Crop=0",
+              "active": true
+            },
+            {
+              "id": "VO322",
+              "name": "Orange",
+              "image": "https://id.dk/admin/public/getimage.ashx?Image=%2fimages%2fproducts%2fID%2fid_40552_315_front_p.jpg&Width=960&Height=0&Format=jpg&Quality=75&Crop=0",
+              "active": true
+            },
+            {
+              "id": "VO323",
+              "name": "Blue",
+              "image": "https://id.dk/admin/public/getimage.ashx?Image=%2fimages%2fproducts%2fID%2fid_40552_392_front_p.jpg&Width=960&Height=0&Format=jpg&Quality=75&Crop=0",
+              "active": true
+            }
+          ]
+        }
+      },
+      "variantCombinations": [
+        {
+          "variantId": "VO321.VO123",
+          "isDefault": true,
+          "price": 200
+        },
+        {
+          "variantId": "VO321.VO124",
+          "isDefault": false,
+          "price": 250
+        },
+        {
+          "variantId": "VO321.VO125",
+          "isDefault": false,
+          "price": 250
+        },
+        {
+          "variantId": "VO322.VO123",
+          "isDefault": false,
+          "price": 220
+        },
+        {
+          "variantId": "VO323.VO123",
+          "isDefault": false,
+          "price": 199
+        },
+        {
+          "variantId": "VO323.VO125",
+          "isDefault": false,
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": "PROD1235",
+      "variantId": "VO555.VO777",
+      "name": "Pretty",
+      "type": "TP2"
+    }
+  ]
+}

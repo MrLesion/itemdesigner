@@ -6,6 +6,12 @@
         <img :src="gfx" draggable="true">
       </span>
     </div>
+    <div class="form-group border-top pt-2">
+      <div class="mb-3">
+        <label for="uploadGfx" class="form-label">Upload own graphic</label>
+        <input class="form-control h-auto" type="file" id="uploadGfx">
+      </div>
+    </div>
   </div>
 </template>
 
@@ -24,9 +30,10 @@ export default {
 
 <style lang="scss">
 .graphic-item{
-  flex: 1 1 50%;
-  max-width: 50%;
+  flex: 1 1 33%;
+  max-width: 33%;
   padding: 1em;
+  cursor: pointer;
   img{
     max-width: 100%;
   }
